@@ -1,0 +1,20 @@
+.navbar-nav {
+    margin-left: auto;
+    font-family: "Roboto Slab";
+}
+
+.navbar-brand {
+    font-weight: 500;
+    font-size: 29px;
+}
+
+footer {
+    color: #fff;
+    background-color: #222;
+    padding-top: 50px;
+}
+
+.copyright p {
+    font-family: "Roboto Slab", sans-serif;
+    font-size: 14px;
+}
