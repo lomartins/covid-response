@@ -17,7 +17,7 @@ def view_data():
 
 @app.route('/news')
 def news():
-    return redirect(url_for('home'))
+    return render_template('news.html', title='Covid Response | News', active_page='news')
 
 
 @app.route('/update')
