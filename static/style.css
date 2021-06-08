@@ -8,6 +8,10 @@
     font-size: 29px;
 }
 
+#main-container {
+    min-height: 82vh;
+}
+
 footer {
     color: #fff;
     background-color: #222;
