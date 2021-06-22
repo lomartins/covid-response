@@ -6,7 +6,7 @@
 instance/*
 !instance/.gitignore
 .webassets-cache
-.env
+secret_keys.env
 
 ### Flask.Python Stack ###
 # Byte-compiled / optimized / DLL files
@@ -115,8 +115,8 @@ celerybeat.pid
 *.sage.py
 
 # Environments
-# .env
-.env/
+# secret_keys.env
+secret_keys.env/
 .venv/
 env/
 venv/
