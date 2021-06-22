@@ -6,8 +6,9 @@ url = 'https://raw.githubusercontent.com/owid/covid-19-data/master/public/data/v
 
 
 def update():
-    r = requests.get(url, allow_redirects=True)
-    open('./data/covid-data.csv', 'wb').write(r.content)
+    pass
+    # r = requests.get(url, allow_redirects=True)
+    # open('./data/covid-data.csv', 'wb').write(r.content)
 
 
 def manipulate():
