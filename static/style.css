@@ -1,6 +1,6 @@
 .navbar-nav {
     margin-left: auto;
-    font-family: "Roboto Slab";
+    font-family: "Roboto Slab", sans-serif;
 }
 
 .navbar-brand {
@@ -10,6 +10,7 @@
 
 #main-container {
     min-height: 85vh;
+    padding-bottom: 40px;
 }
 
 footer {
@@ -21,4 +22,25 @@ footer {
 .copyright p {
     font-family: "Roboto Slab", sans-serif;
     font-size: 14px;
+}
+
+.embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.embed-container iframe, .embed-container object, .embed-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+a.deco-none {
+    color: #000000 !important;
+    text-decoration: none;
 }
